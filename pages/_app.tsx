@@ -2,8 +2,7 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <div>
-      <h1>hey</h1>
+    <div data-cy="App">
       <Component {...pageProps} />
     </div>
   );
